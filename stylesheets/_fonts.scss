@@ -1,0 +1,7 @@
+@for $i from 1 through 6 {
+	.font-size-#{$i * 12} {
+		font-size: $i X 12px;
+	}
+}
+
+// $default-h1-size: 
