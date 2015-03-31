@@ -1,0 +1,18 @@
+$fun-color: #ff6634;
+$nav-bg: #000000;
+$regular-color: #000000;
+$special-type-color: #ffffff;
+$offset-color:#cccccc;
+
+.orange-box{
+	background-color:$fun-color;
+}
+
+.black-box{
+	background-color:$regular-color;
+	color:$special-type-color;
+}
+
+.grey-box{
+	background-color:$offset-color;
+}

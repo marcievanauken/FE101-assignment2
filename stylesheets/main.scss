@@ -1,1 +1,17 @@
+@import 'columns';
+@import 'colors';
+@import 'nav';
 @import 'fonts';
+@import 'buttons';
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#box {
+	width:100px;
+	height:100px;
+	float:left;
+	margin-right:10px;
+}

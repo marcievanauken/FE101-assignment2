@@ -1,19 +1,105 @@
-.font-size-12 {
-  font-size: 1 X 12px; }
+.col-1 {
+  width: 100%;
+  margin-right: 20px;
+  padding: 5px 15px;
+  float: left; }
 
-.font-size-24 {
-  font-size: 2 X 12px; }
+.col-2 {
+  width: 50%;
+  margin-right: 20px;
+  padding: 5px 15px;
+  float: left; }
 
-.font-size-36 {
-  font-size: 3 X 12px; }
+.col-3 {
+  width: 33.33333%;
+  margin-right: 20px;
+  padding: 5px 15px;
+  float: left; }
 
-.font-size-48 {
-  font-size: 4 X 12px; }
+.col-4 {
+  width: 25%;
+  margin-right: 20px;
+  padding: 5px 15px;
+  float: left; }
 
-.font-size-60 {
-  font-size: 5 X 12px; }
+.col-5 {
+  width: 20%;
+  margin-right: 20px;
+  padding: 5px 15px;
+  float: left; }
 
-.font-size-72 {
-  font-size: 6 X 12px; }
+.orange-box {
+  background-color: #ff6634; }
+
+.black-box {
+  background-color: #000000;
+  color: #ffffff; }
+
+.grey-box {
+  background-color: #cccccc; }
+
+nav {
+  padding: 10px;
+  height: 45px;
+  background-color: #000000; }
+  nav ul li {
+    display: inline-block;
+    margin: 0 30px 0 0; }
+    nav ul li a {
+      color: #ffffff; }
+
+p {
+  font-family: "Signika";
+  font-weight: 300;
+  color: #000000; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Arvo";
+  font-weight: 400; }
+
+h1,
+h2 {
+  color: #ff6634;
+  letter-spacing: 1px; }
+
+h1 {
+  font-size: 70pt; }
+
+h2 {
+  font-size: 35pt; }
+
+h4 {
+  font-size: 12pt;
+  font-weight: 700; }
+
+a {
+  color: #ff6634;
+  font-family: "Arvo"; }
+
+button {
+  width: 100px;
+  padding: 10px;
+  margin-right: 15px;
+  float: left;
+  color: #000000; }
+
+button.button-one {
+  background-color: #ffffff; }
+
+button.button-two {
+  background-color: #cccccc; }
+
+.container {
+  margin: 0 auto;
+  width: 90%; }
+
+#box {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 10px; }
 
 /*# sourceMappingURL=main.css.map */

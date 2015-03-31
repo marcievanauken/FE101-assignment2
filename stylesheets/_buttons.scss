@@ -1,0 +1,15 @@
+button {
+	width:100px;
+	padding:10px;
+	margin-right:15px;
+	float:left;
+	color:$regular-color;
+}
+
+button.button-one {
+	background-color:$special-type-color;
+}
+
+button.button-two {
+	background-color:$offset-color;
+}

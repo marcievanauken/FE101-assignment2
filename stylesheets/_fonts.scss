@@ -1,7 +1,46 @@
-@for $i from 1 through 6 {
-	.font-size-#{$i * 12} {
-		font-size: $i X 12px;
-	}
+$fancytype: "Arvo";
+$p-type: "Signika";
+$header-spacing: 1px;
+$p-size: 10pt;
+$h1-size: 70pt;
+$h2-size: 35pt;
+$h4-size: 12pt;
+
+p {
+	font-family:$p-type;
+    font-weight: 300;
+    color:$regular-color;
 }
 
-// $default-h1-size: 
+h1,
+h2,
+h3,
+h4 {
+    font-family: $fancytype;
+    font-weight: 400;
+}
+
+h1,
+h2 {
+	color: $fun-color;
+	letter-spacing:$header-spacing;
+}
+
+h1 {
+	font-size:$h1-size;
+}
+
+h2 {
+	font-size:$h2-size;
+}
+
+h4 {
+	font-size:$h4-size;
+	font-weight:700;
+}
+
+a {
+	color:$fun-color;
+	font-family:$fancytype;
+}
+
